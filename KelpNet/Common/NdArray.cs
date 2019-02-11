@@ -14,7 +14,7 @@ namespace KelpNet
 {
     [Serializable]
     [DebuggerDisplay("{Name + ToString(\"Size\")}", Type = "{\"NdArray\" + ToString(\"Size\")}")]
-    public struct NdArray
+    public class NdArray
     {
         public string Name;
 
